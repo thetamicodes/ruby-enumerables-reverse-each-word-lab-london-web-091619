@@ -9,7 +9,6 @@ require 'pry'
 # # binding.pry
 # end
 
-a.collect { |x| x + "!" }         #=> ["a!", "b!", "c!", "d!"]
 
 def reverse_each_word(string)
 array = string.split
@@ -20,6 +19,7 @@ reversed_words = []
 binding.pry
 end
     
+
     
 
 
