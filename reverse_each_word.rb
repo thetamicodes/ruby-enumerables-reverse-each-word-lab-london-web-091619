@@ -14,12 +14,12 @@ def reverse_each_word(string)
 array = string.split
 reversed_words = []
 array.collect { |word| reversed_words << word.reverse }
-reversed_words.join(' ')
+reversed_words.map { |word| 
 return
 # binding.pry
 end
     
-
+a.map { |i| "'" + i.to_s + "'" }.join(",")
     
 
 
