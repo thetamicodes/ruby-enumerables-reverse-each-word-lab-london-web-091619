@@ -17,7 +17,7 @@ reversed_words = []
   array.collect { |word| reversed_words << word.reverse }
   puts reserved_words
   end
-# binding.pry
+binding.pry
 end
     
     
