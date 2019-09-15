@@ -15,6 +15,7 @@ array = string.split
 reversed_words = []
 array.collect { |word| reversed_words << word.reverse }
 # reversed_words.map { |word| "" + word.to_s + "" }.join(" ") }
+
 return
 binding.pry
 end
