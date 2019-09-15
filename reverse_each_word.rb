@@ -15,6 +15,7 @@ def reverse_each_word(string)
 array = string.split
 reversed_words = []
 reversed_words.collect { |words| reversed_words << word.reverse }
+puts reserved_words
 # binding.pry
 end
     
