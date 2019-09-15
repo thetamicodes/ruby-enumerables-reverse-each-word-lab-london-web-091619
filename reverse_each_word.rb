@@ -1,15 +1,22 @@
 require 'pry'
 
+# def reverse_each_word(string)
+# array = string.split
+# reversed_words = []
+# array.each { |word| reversed_words << word.reverse }
+# puts reversed_words 
+# reversed_words.collect { |words| puts words }
+# # binding.pry
+# end
+
+a.collect { |x| x + "!" }         #=> ["a!", "b!", "c!", "d!"]
+
 def reverse_each_word(string)
 array = string.split
 reversed_words = []
 array.each { |word| reversed_words << word.reverse }
 puts reversed_words 
-reversed_words.collect { |words| puts words }
+reversed_words.collect { |words| reversed_words << word.reverse }
 # binding.pry
 end
-
-a.collect { |x| x + "!" }         #=> ["a!", "b!", "c!", "d!"]
-
-
     
